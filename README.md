@@ -5,10 +5,17 @@ personnal repo for training
 
 ## ressources
 
+- [Awesome Learning Dev FR](https://www.learndev.info/fr)
+
 ### Python
 
 - [Python 3 Doc](https://docs.python.org/3/)
 - [Graven - Apprendre le Python](https://youtube.com/playlist?list=PLMS9Cy4Enq5JmIZtKE5OHJCI3jZfpASbR)
+
+#### Libraries
+
+- [Pillow](https://pillow.readthedocs.io/en/stable/)
+- [Rich](https://rich.readthedocs.io/en/latest/)
 
 ### JavaScript
 
