@@ -1,6 +1,6 @@
 # res https://youtu.be/kyxF5eH3Kic
 
-import statistics
+from statistics import mean
 from random import shuffle
 
 
@@ -52,12 +52,47 @@ def exemple():
              11,
              ]
     print(notes)
-    results = statistics.mean(notes)  # moyenne de la liste de notes
+    results = mean(notes)  # moyenne de la liste de notes
     shuffle(notes)  # met dans un ordre aléatoire les éléments de la liste
     print(notes)
     # .format convertit tout seul en string
     print("Moyenne de {} /20".format(results))
 
 
+def exemple_2():
+    # découpe une chaîne de caractères en éléments de liste à partir d'un caractère définia
+    text = input("Entrer votre (nom|prenom|annee de naissance): ").split("|")
+    print("Prénom : {} \n Nom : {} \n Année de naissance : {}".format(
+        text[1], text[0], text[2]))
+
+
+"""
+générateur de phrases
+demander une chaîne de mots de la forme mot1/mot2/mot3
+transformer cette chaîne en liste
+la mélanger
+si le nombre d'élements de la liste < 10
+    -> afficher les 2 premiers mots
+si le nombre d'élements de la liste >= 10
+    -> afficher les 3 derniers éléments de la liste
+"""
+
+
+def generateur():
+    mots = input("liste de mots sous la forme mot1/mot2/mot3 : ").split("/")
+    shuffle(mots)
+    len_mots = len(mots)
+    print(len_mots)
+    if len_mots < 10:
+        print(mots[0:1])
+    else:
+        print(mots[])
+
+
 # list()
 # exemple()
+# exemple_2()
+# generateur()
+
+if __name__ == '__main__':
+    generateur()
