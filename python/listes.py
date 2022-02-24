@@ -84,9 +84,9 @@ def generateur():
     len_mots = len(mots)
     print(len_mots)
     if len_mots < 10:
-        print(mots[0:1])
+        print(mots[0], mots[1])
     else:
-        print(mots[])
+        print(mots[len_mots-1], mots[len_mots-2], mots[len_mots-3])
 
 
 # list()
