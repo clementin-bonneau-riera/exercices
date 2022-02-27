@@ -16,6 +16,9 @@ personnal repo for training
 
 - [Pillow](https://pillow.readthedocs.io/en/stable/)
 - [Rich](https://rich.readthedocs.io/en/latest/)
+- [Deezer Python](https://deezer-python.readthedocs.io/en/stable/)
+- [Python Youtube](https://sns-sdks.lkhardy.cn/python-youtube/)
+- [Tweepy](https://docs.tweepy.org/en/stable/<>)
 
 ### JavaScript
 
