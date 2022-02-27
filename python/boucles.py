@@ -1,6 +1,7 @@
 # res https://youtu.be/BrknhzrHm8w
 
-import random
+from ast import If
+from random import randint
 
 
 # --- exemple 1 ---
@@ -82,8 +83,27 @@ consignes : Jeu du Juste Prix
 
 """
 
+
 def juste_prix():
-    number =  int(random.randrange(100))
+
+    number = randint(1, 100)
+
+    running = True
+
+    print(number)
+
+    while running:
+        guess = int(input("Nombre entre 1 et 100 : "))
+
+        if guess < number:  # possibilité d'utilser des elif
+            print("c'est plus")
+
+        if guess > number:
+            print("c'est moins")
+
+        if guess == number:
+            print("c'est gagné")
+            running = False  # break marche aussi mais là ça utilise running = True
 
 
 # --- exec ---
