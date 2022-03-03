@@ -1,6 +1,5 @@
 # res https://youtu.be/BrknhzrHm8w
 
-from ast import If
 from random import randint
 
 
@@ -89,8 +88,6 @@ def juste_prix():
     number = randint(1, 100)
 
     running = True
-
-    print(number)
 
     while running:
         guess = int(input("Nombre entre 1 et 100 : "))

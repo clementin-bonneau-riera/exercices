@@ -19,6 +19,7 @@ personnal repo for training
 - [Deezer Python](https://deezer-python.readthedocs.io/en/stable/)
 - [Python Youtube](https://sns-sdks.lkhardy.cn/python-youtube/)
 - [Tweepy](https://docs.tweepy.org/en/stable/<>)
+- [Python Social Auth’s documentation](https://python-social-auth.readthedocs.io/en/latest/)
 
 ### JavaScript
 
