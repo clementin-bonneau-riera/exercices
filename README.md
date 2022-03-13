@@ -11,6 +11,9 @@ personnal repo for training
 
 - [Python 3 Doc](https://docs.python.org/3/)
 - [Graven - Apprendre le Python](https://youtube.com/playlist?list=PLMS9Cy4Enq5JmIZtKE5OHJCI3jZfpASbR)
+- [Invent with Python](https://inventwithpython.com/)
+  - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+  - [The Big Book of Small Python Projects](https://inventwithpython.com/bigbookpython/)
 
 #### Libraries
 
