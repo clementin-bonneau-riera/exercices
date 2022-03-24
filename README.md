@@ -23,6 +23,7 @@ personnal repo for training
 - [Python Youtube](https://sns-sdks.lkhardy.cn/python-youtube/)
 - [Tweepy](https://docs.tweepy.org/en/stable/<>)
 - [Python Social Auth’s documentation](https://python-social-auth.readthedocs.io/en/latest/)
+- [Moviepy](https://zulko.github.io/moviepy/)
 
 ### JavaScript
 
