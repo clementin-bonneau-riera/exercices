@@ -95,7 +95,20 @@ def exercice():
     # si oui, ajouter 5€ au prix à payer
     # afficher prix à payer
 
-    print("Hello world.")
+    age = int(input("ÂGE : "))
+    price = 0
+    
+    if age < 18:
+        price += 7
+    elif age >= 18:
+        price += 12
+
+    popcorn_choice = input("Voulez vous du pop corn ? (yes/no) ")
+
+    if popcorn_choice == "yes":
+        price +=5
+
+    print("prix : {}".format(price))
 
 
 # --- exec --
