@@ -24,6 +24,8 @@ personnal repo for training
 - [Tweepy](https://docs.tweepy.org/en/stable/<>)
 - [Python Social Auth’s documentation](https://python-social-auth.readthedocs.io/en/latest/)
 - [Moviepy](https://zulko.github.io/moviepy/)
+- [Spotipy](https://spotipy.readthedocs.io/en)
+  - [Exploring the Spotify API in Python](https://stmorse.github.io/journal/spotify-api.html)
 
 ### JavaScript
 
