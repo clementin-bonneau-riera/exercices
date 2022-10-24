@@ -33,6 +33,10 @@ personnal repo for training
 - [The Odin Project](https://www.theodinproject.com/)
 - [Javscript.info](https://javascript.info/)
 
+### Web Extensions
+
+- [MDN WebExtensions](https://developer.mozilla.org/fr/docs/Mozilla/Add-ons/WebExtensions)
+
 ### Arduino
 
 - [Arduino Docs](https://docs.arduino.cc/https://docs.arduino.cc/)
